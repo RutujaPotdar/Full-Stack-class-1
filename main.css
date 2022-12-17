@@ -1,0 +1,30 @@
+.header-bar{
+    background-color: #595757;
+}
+
+.input-dark{
+    background-color: rgb(173, 168, 168);
+    border: transparent;
+    color: #fff;
+}
+
+.input-dark:focus{
+    color: #fff;
+    background-color: rgb(211, 210, 210);
+    border-color: #80bd80;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(173, 168, 168);
+}
+
+.container--narrow{
+    max-width: 732px;
+}
+
+.avatar-tiny{
+    width: 24px;
+    height: 24px;
+    border: 12px;
+    margin: 4px;
+    position: relative;
+    top: -1px;
+}
